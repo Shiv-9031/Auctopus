@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-wrapper {
+  background: #ffff;
+  width: 500px;
+  padding: 25px;
+  margin: 50px auto 0;
+  border-top: 5px solid blue;
+  box-shadow: 0 0 7px 5px rgb(0, 0, 0, 0.5);
+}
+.login-wrapper > h2 {
+  font-size: 30px;
+  line-height: 24px;
+  padding: 35px;
+  text-align: center;
+}
+
+.login-wrapper > .form-container {
+  width: 100%;
+}
+.login-wrapper > .form-container > form > .input-name {
+  width: 100%;
+  margin: 8px auto 0;
+
+  display: grid;
+  grid-template-columns: calc(8%) calc(80%);
+  grid-template-rows: 50px 13px;
+  align-items: center;
+}
+.input-name > input {
+  font-size: 15px;
+  padding: 5px 5px;
+}
+.input-name > p {
+  font-size: 25px;
+  color: blue;
+}
+
+.button > .button {
+  margin-top: 15px;
+  width: 100%;
+  color: #ffff;
+  height: 45px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  background-color: blue;
+  border: transparent;
+  box-shadow: 0 0 7px 5px rgb(0, 0, 0, 0.5);
+}
+
+.input-name > .form-error {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
