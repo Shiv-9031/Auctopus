@@ -58,7 +58,7 @@ export const Header = ({ children }) => {
 
                 <li className="header-item">
                   <a
-                    href="https://github.com/Shiv-9031/SciAstra/tree/master"
+                    href="https://github.com/Shiv-9031/Auctopus"
                     target="_blank"
                     rel="noreferrer"
                   >
